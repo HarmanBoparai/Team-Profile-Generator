@@ -17,7 +17,7 @@ class Employee {
     {
         return this.id;
     }
-    getroleTitle()
+    getRole()
     {
         return "Employee";
     }
