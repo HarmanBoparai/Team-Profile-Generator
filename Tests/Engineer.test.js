@@ -13,7 +13,7 @@ describe("Engineer", () => {
     describe('it should return the Github username', () => {
         it('it should create a new github object', () => {
             const obj = new Engineer("Alec",15,"alec@gmail.com","Alec123");
-            expect(typeof (obj.getGithub)).toEqual("Alec123");
+            expect(typeof (obj.github)).toEqual("Alec123");
         });
     });
 
