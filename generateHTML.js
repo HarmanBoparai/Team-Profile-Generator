@@ -1,12 +1,21 @@
 
 
 // A function to generate markdown for README
-function generateHTML({
-  
-}) {
-
- # [github username](https://github.com/${github_name})
- # ${email}
+function generateHTML({employeerole,mname,mid,memail,officeno,ename,engineeremail,eid,iname,iemail,github_name,internid,school}) {
+return `
+# ${employeerole}
+# ${mname}
+# ${mid}
+# ${memail}
+# ${officeno}
+# ${ename}
+# ${engineeremail}
+# ${eid}
+# [github username]${github_name})
+# ${iname}
+# ${iemail}
+# ${internid}
+ # ${school}
 
 
 `;

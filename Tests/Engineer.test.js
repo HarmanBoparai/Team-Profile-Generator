@@ -6,14 +6,14 @@ describe("Engineer", () => {
          //It returns an empty string 
          it("should initiate an object", () => {
             const obj = new Engineer();
-            expect(typeof (obj)).toEqual("object");
+            expect((obj)).toEqual("object");
         });
     });
 
     describe('it should return the Github username', () => {
         it('it should create a new github object', () => {
             const obj = new Engineer("Alec",15,"alec@gmail.com","Alec123");
-            expect(typeof (obj.github)).toEqual("Alec123");
+            expect((obj.github())).toEqual("Alec123");
         });
     });
 

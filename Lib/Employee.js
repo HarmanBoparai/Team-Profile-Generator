@@ -7,7 +7,9 @@ class Employee {
 // Created getName,getEmail ,getId and getroleTitle methods to get name,email,id and role of the employee
     getName()
     {
+        console.log(this.name)
         return this.name;
+
     }
     getEmail()
     {
